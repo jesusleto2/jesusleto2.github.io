@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./views/css/style.css">
+    <title>Portal</title>
+</head>
+<body>
+    <div class="banner">
+        <header>
+            <div class="logo">
+                <img src="views/img/logo.png" alt="">
+            </div>
+            <nav class="nav">
+                <ul class="nav__ul">
+                    <li class="nav__li"><a href="#inicio">inicio</a></li>
+                    <li class="nav__li"><a href="#curiosidad">curiosidades</a></li>
+                    <li class="nav__li"><a href="#galeria">galeria</a></li>
+                    <li class="nav__li"><a href="#contacto">contacto</a></li>
+                </ul>
+            </nav>  
+        </header>
+        <section class="section-content" id="inicio">
+            <div class="section-content__text">
+                <h2 class="scroll-effect">Bienvenid@ a descubrir los secretos del universo</h2>
+                <p class="scroll-effect">Explora las maravillas del cosmos, desde los rincones más lejanos de la galaxia hasta los fenómenos más asombrosos que ocurren a nuestro alrededor. Prepárate para un viaje lleno de curiosidades y conocimientos.</p>
+            </div>
+        </section>
+    </div>
+
+    <div class="container">
+        <div class="main-layout">
+            <section class="recent-articles" id="articulos">
+                <h2 id="articulos-recientes">Artículos Recientes</h2>
+            
+                <div class="article-card">
+                    <img src="views/img/art1.png" >
+                    <div class="article-content">
+                        <h3>¿Vida en el Plasma...?</h3>
+                        <p>Misteriosas luces brillantes en la atmósfera se desplazan como si tuvieran vida propia... ¿Fenómeno natural o evidencia de OVNIs?</p>
+                        <a href="https://cerebrodigital.net/vida-extraterrestre-forma-plasma-pre-vida/" class="btn-article">Leer más</a>
+                    </div>
+                </div>
+                <div class="article-card">
+                    <img src="views/img/art2.png">
+                    <div class="article-content">
+                        <h3>¿El origen del Oumuamua...?</h3>
+                        <p>El primer objeto interestelar detectado en nuestro sistema solar intrigó al mundo: ¿un asteroide, una nave alienígena, o algo más...?</p>
+                        <a href="https://www.latercera.com/tendencias/noticia/revelan-otra-teoria-sobre-el-oumuamua-el-extrano-objeto-que-podria-venir-de-una-civilizacion-alienigena/3BX5NOCU7JDZXFNQL5PTC65JH4/#:~:text=%E2%80%9CEsto%20sugiere%20que%20Oumuamua%20se,o%202.000%20millones%20de%20a%C3%B1os." class="btn-article">Leer más</a>
+                    </div>
+                </div>
+                <div class="article-card">
+                    <img src="views/img/art3.png" >
+                    <div class="article-content">
+                        <h3>¿Sonido extraño en el espacio...?</h3>
+                        <p>En 2022, un radiotelescopio detectó misteriosas señales de radio repetitivas. ¿Un fenómeno cósmico o algo más allá de nuestra comprensión...?</p>
+                        <a href="https://www.eldiarioar.com/sociedad/sonidos-extranos-espacio-astronautas-llevan-sobresalto_1_11635549.html" class="btn-article">Leer más</a>
+                    </div>
+                </div>
+                <div class="article-card">
+                    <img src="views/img/art4.png" >
+                    <div class="article-content">
+                        <h3>¿Planeta fuera de nuestro sistema solar...?</h3>
+                        <p>En 2021, científicos hallaron indicios de un posible exoplaneta en otra galaxia. ¿La primera evidencia de mundos tan lejanos...?</p>
+                        <a href="https://cnnespanol.cnn.com/2021/08/05/encuentran-planetas-similares-a-los-de-nuestro-sistema-solar-trax" class="btn-article">Leer más</a>
+                    </div>
+                </div>
+                <div class="article-card">
+                    <img src="views/img/art5.png" >
+                    <div class="article-content">
+                        <h3>¿Agujero negro "cantante"...?</h3>
+                        <p>En 2019, científicos registraron ondas acústicas de un agujero negro en el cúmulo de Perseo. ¿Un "sonido cósmico" con frecuencia inaudible para humanos...?</p>
+                        <a href="https://www.bbc.com/mundo/noticias-47880446" class="btn-article">Leer más</a>
+                    </div>
+                </div>
+                <div class="article-card">
+                    <img src="views/img/art6.png" >
+                    <div class="article-content">
+                        <h3>¿Meteorito intergaláctico en la Tierra...?</h3>
+                        <p>En 2023, científicos afirmaron haber recuperado fragmentos de un meteorito interestelar en el fondo del océano Pacífico. ¿Evidencia de materiales que vienen de más allá del Sistema Solar...?</p>
+                        <a href="https://www.dw.com/es/im1-es-el-primer-objeto-interestelar-hallado-en-la-tierra/a-66699725" class="btn-article">Leer más</a>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="slider-container" >
+                <div class="slider" id="slider">
+                    <div class="card" onclick="window.location.href='https://www.wikipedia.org';">
+                        <img src="views/img/card1.jpg" class="card-img">
+                        <h3>¿Sabías que en Venus un día es más largo que un año?</h3>
+                        <p>Venus tarda más tiempo en rotar sobre su eje que en orbitar alrededor del Sol. ¡Un día en Venus equivale a 243 días terrestres!</p>
+                    </div>
+                    <div class="card" onclick="window.location.href='https://www.wikipedia.org';">
+                        <img src="views/img/card2.jpg" class="card-img">
+                        <h3>El Sol es increíblemente masivo.</h3>
+                        <p>Representa el 99.86% de toda la masa del Sistema Solar, ¡tan grande que podrías meter 1.3 millones de planetas Tierra dentro de él!</p>
+                    </div>
+                    <div class="card" onclick="window.location.href='https://www.wikipedia.org';">
+                        <img src="views/img/card3.jpg" class="card-img">
+                        <h3>Lluvia de diamantes en Neptuno y Urano.</h3>
+                        <p>La alta presión en estos planetas convierte el carbono en diamantes sólidos que caen como lluvia hacia el núcleo.</p>
+                    </div>
+                    <div class="card" onclick="window.location.href='https://www.wikipedia.org';">
+                        <img src="views/img/card4.jpg" class="card-img">
+                        <h3>El Monte Olimpo en Marte es el volcán más grande del Sistema Solar.</h3>
+                        <p>Tiene una altura de 21 km, ¡tres veces más alto que el Monte Everest!</p>
+                    </div>
+                    <div class="card" onclick="window.location.href='https://www.wikipedia.org';">
+                        <img src="views/img/card5.jpg" class="card-img">
+                        <h3>Hay un planeta completamente hecho de diamante.</h3>
+                        <p>El planeta 55 Cancri e, ubicado a 40 años luz de la Tierra, está compuesto principalmente de carbono, lo que significa que gran parte de su masa podría ser diamante.</p>
+                    </div>
+                    <div class="card" onclick="window.location.href='https://www.wikipedia.org';">
+                        <img src="views/img/card6.jpg" class="card-img">
+                        <h3>En el espacio no hay sonido.</h3>
+                        <p>El vacío del espacio significa que no hay aire para transmitir el sonido. ¡El espacio es completamente silencioso!<p>
+                    </div>
+                    <div class="card" onclick="window.location.href='https://www.wikipedia.org';">
+                        <img src="views/img/card7.jpg" class="card-img">
+                        <h3>La Vía Láctea se está moviendo.</h3>
+                        <p>Nuestra galaxia viaja por el espacio a una velocidad de aproximadamente 2.2 millones de kilómetros por hora.</p>
+                    </div>
+                    <div class="card" onclick="window.location.href='https://www.wikipedia.org';">
+                        <img src="views/img/card8.jpg" class="card-img">
+                        <h3>Las estrellas fugaces no son estrellas.</h3>
+                        <p>Son pequeños fragmentos de cometas o asteroides que arden al entrar a la atmósfera terrestre.</p>
+                    </div>
+                    <div class="card" onclick="window.location.href='https://www.wikipedia.org';">
+                        <img src="views/img/card9.jpg" class="card-img">
+                        <h3>Existen más estrellas en el universo que granos de arena en todas las playas de la Tierra.</h3>
+                        <p>Se estima que hay 1,000,000,000,000,000,000,000 (un sextillón) de estrellas.</p>
+                    </div>
+                    <div class="card" onclick="window.location.href='https://www.wikipedia.org';">
+                        <img src="views/img/card10.jpg" class="card-img">
+                        <h3>El astronauta más joven en el espacio tenía solo 25 años.</h3>
+                        <p>Gherman Titov, un cosmonauta soviético, voló a bordo del Vostok 2 en 1961.</p>
+                    </div>
+                    
+                </div>
+                <div class="buttons">
+                    <button id="scrollUp">&#8593;</button>
+                    <button id="scrollDown">&#8595;</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <section class="section-galeria" id="galeria">
+        <div class="section-galeria__content">
+            <div class="section-galeria__text">
+                <h3>Galeria espacial</h3>
+            </div>
+        </div>
+        <div class="photo">
+            <div class="photo-item">
+                <img src="views/img/galeria1.png" alt="Imagen 1">
+                <a href="views/img/galeria1.png" class="download-btn" download><i class='bx bxs-download'></i></a>
+            </div>
+            <div class="photo-item">
+                <img src="views/img/galeria2.png" alt="Imagen 2">
+                <a href="views/img/galeria2.png" class="download-btn" download><i class='bx bxs-download'></i></a>
+            </div>
+            <div class="photo-item">
+                <img src="views/img/galeria3.png" alt="Imagen 1">
+                <a href="views/img/galeria3.png" class="download-btn" download><i class='bx bxs-download'></i></a>
+            </div>
+            <div class="photo-item">
+                <img src="views/img/galeria4.png" alt="Imagen 2">
+                <a href="views/img/galeria4.png" class="download-btn" download><i class='bx bxs-download'></i></a>
+            </div>
+            <div class="photo-item">
+                <img src="views/img/galeria5.png" alt="Imagen 1">
+                <a href="views/img/galeria5.png" class="download-btn" download><i class='bx bxs-download'></i></a>
+            </div>
+            <div class="photo-item">
+                <img src="views/img/galeria6.png" alt="Imagen 1">
+                <a href="views/img/galeria6.png" class="download-btn" download><i class='bx bxs-download'></i></a>
+            </div>
+            <div class="photo-item">
+                <img src="views/img/galeria7.png" alt="Imagen 2">
+                <a href="views/img/galeria7.png" class="download-btn" download><i class='bx bxs-download'></i></a>
+            </div>
+            <div class="photo-item ">
+                <img src="views/img/galeria8.png" alt="Imagen 1">
+                <a href="views/img/galeria8.png" class="download-btn" download><i class='bx bxs-download'></i></a>
+            </div>
+            <div class="photo-item ">
+                <img src="views/img/galeria9.png" alt="Imagen 2">
+                <a href="views/img/galeria9.png" class="download-btn" download><i class='bx bxs-download'></i></a>
+            </div>
+            <div class="photo-item ">
+                <img src="views/img/galeria10.png" alt="Imagen 1">
+                <a href="views/img/galeria10.png" class="download-btn" download><i class='bx bxs-download'></i></a>
+            </div>
+            <div class="photo-item ">
+                <img src="views/img/galeria11.png" alt="Imagen 1">
+                <a href="views/img/galeria11.png" class="download-btn" download><i class='bx bxs-download'></i></a>
+            </div>
+            <div class="photo-item ">
+                <img src="views/img/galeria12.png" alt="Imagen 2">
+                <a href="views/img/galeria12.png" class="download-btn" download><i class='bx bxs-download'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contacto">
+        <div class="contact-info">
+            <div class="contact-info__descr">
+                <h3>Contáctanos</h3>
+                <p>
+                    Si tienes preguntas o deseas saber más sobre nuestras curiosidades del espacio, no dudes en escribirnos. 
+                    ¡Estaremos encantados de ayudarte!
+                </p>
+            </div>
+            <div class="info__social">
+                <h3>Redes sociales</h3>
+                <ul class="info__ul">
+                    <li><i class='bx bxl-facebook-circle'><a href="#">Facebook</a></i> </li>
+                    <li><i class='bx bxl-instagram'> <a href="#">Instagram</a></i></li>
+                    <li><i class='bx bxl-twitter'><a href="#">Twitter</a></i> </li>
+                </ul>
+            </div>
+        </div>
+        <div class="contact-content">
+            <div class="form">
+                <form id="contactForm" action="#" method="post" onsubmit="return enviarFormulario(event)">
+                    <legend>Formulario de contacto</legend>
+                    <div class="form-input">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+                    <div class="form-input">
+                        <label for="email">Correo Electrónico</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-input">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                    </div>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    
+        <div id="overlay" class="overlay">
+            <div class="spinner"></div>
+            <div id="mensajeExito" class="mensaje-exito" style="display:none;">
+                <p>Mensaje enviado con éxito</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="footer">
+        <p>&copy; 2024 Curiosidades del Espacio. Todos los derechos reservados.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="views/javascript/script.js"></script>
+    <script src="views/javascript/card.js"></script>
+    <script src="views/javascript/form.js"></script>
+    <script src="views/javascript/photo.js"></script>
+</body>
+</html>
